@@ -1,0 +1,32 @@
+.wss_form_group{
+    margin: 20px 0 ;
+    width: 400px;
+}
+
+.wss_radio_group{
+    display: flex ;
+    align-items: center ;
+    gap: 20px ;
+}
+
+.wss_form_group > label, .wss_label{
+    display: block ;
+    font-weight: 500 ;
+    font-size: 14px ;
+    margin-bottom: 10px ;
+}
+
+.wss_form_group > input{
+    width: 100% ;
+}
+
+#wss_receiver_fields, #wss_supplier_fields{
+    display: none ;
+}
+
+.wss_radio_inner{
+    display: flex ;
+    align-items: center ;
+    gap: 5px ;
+    font-size: 14px ;
+}

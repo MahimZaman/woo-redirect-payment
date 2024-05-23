@@ -1,0 +1,53 @@
+.wss_cart_form{
+    display: flex ;
+    flex-direction: column ;
+    gap: 10px ;
+    align-items: flex-start ;
+    margin-bottom: 20px ;
+}
+
+.wss_quantity{
+    display: flex ;
+    align-items: stretch;
+    border: 1px solid #d9d9d9 ;
+}
+
+.wss_minus, .wss_plus{
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+    color: #000 ;
+    font-size: 13px ;
+    background: rgba(0,0,0,0.05);
+    padding: 0 10px ;
+    user-select: none;
+    cursor: pointer;
+}
+
+.wss_minus{
+    border-right: 1px solid #d9d9d9 ;
+}
+
+.wss_plus{
+    border-left: 1px solid #d9d9d9 ;
+}
+
+.wss_quantity > input{
+    border: none ;
+    padding: 5px ;
+    height: auto ;
+    text-align: center;
+    width : 45px ;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.wss_quantity > input::-webkit-outer-spin-button,
+.wss_quantity > input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.wss_quantity > input[type=number] {
+  -moz-appearance: textfield;
+}
